@@ -1,5 +1,5 @@
-import { add } from "./add.js"
+import { add } from './add.js';
 
-const result = add(2, 3)
+const result = add(2, 3);
 
-console.log(`The result is: ${result}`)
+console.log(`The result is: ${result}`);
