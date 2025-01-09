@@ -1,27 +1,16 @@
 {
-    "name": "junior-platform-engineer-assignment",
-    "version": "1.0.0",
-    "description": "Junior Platform Engineer Assignment",
-    "type": "module",
-    "main": "dist/index.js",
-    "scripts": {
-        "build": "tsc && node dist/index.js",
-        "test": "vitest",
-        "lint": "eslint src/**/*.ts",
-        "format": "prettier --write src/**/*.ts",
-        "format:check": "prettier --check src/**/*.ts"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.7.5",
-        "@typescript-eslint/parser": "^6.7.5",
-        "eslint": "^8.51.0",
-        "eslint-config-prettier": "^9.0.0",
-        "husky": "^8.0.3",
-        "lint-staged": "^15.0.1",
-        "prettier": "^3.0.3",
-        "typescript": "^5.0.0",
-        "vitest": "^0.34.6"
-    }
+  "name": "junior-platform-engineer-assignment",
+  "version": "1.0.0",
+  "description": "Junior Platform Engineer Assignment",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
